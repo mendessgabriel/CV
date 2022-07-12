@@ -1,0 +1,28 @@
+{
+    "experiences": [
+        {
+            "enterprise": "Iteris Consultoria e Software",
+            "role": "Software Engineer",
+            "description": "Development of front-end and back-end solutions to meet the diverse needs of customers; Development and support for legacy and new solutions using various technologies, providing support for customers;",
+            "startedMonth": 4,
+            "startedYear": 2019,
+            "stillWorking": true
+        },
+        {
+            "enterprise": "Iteris Consultoria e Software",
+            "role": "Intern",
+            "description": "Systems development assistant, working on front-end and back-end solutions, focusing on professional improvement;",
+            "startedMonth": 8,
+            "startedYear": 2018,
+            "stillWorking": false
+        },
+        {
+            "enterprise": "Surf Depot",
+            "role": "Sub Manager and Seller",
+            "description": "Interim supervisor of sales and people from the retail department, in addition to continuing with the role of salesperson and cash and stock control;",
+            "startedMonth": 3,
+            "startedYear": 2017,
+            "stillWorking": false
+        }
+    ]
+}

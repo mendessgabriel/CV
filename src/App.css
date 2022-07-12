@@ -1,38 +1,352 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px) {
+  .header-photo {
+    display: none;
+  }
+  .darkmodebtn {
+    display: none!important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cv {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px -2px black;
+  width: 80%;
+  background: darkgray;
+  margin: 1% auto;
+  height: auto;
+}
+
+.icon-moon {
+  background-image: url("./Imgs/moon.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 5rem;
+}
+
+.icon-sun {
+  background-image: url("./Imgs/sun.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 5rem;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #9d9b9b;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-divisor {
+  width: 100%;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-photo {
+  width: 15%;
+}
+
+.subtitle-color {
+  color: darkgray;
+}
+
+.header-photo-radius {
+  background-image: url("./Imgs/perfil.jpg");
+  background-repeat: no-repeat;
+  background-size: 8rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100px;
+}
+
+.main {
+  margin-top: 1rem;
+  display: flex;
+  background: #9d9b9b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main-icon-phone {
+  background-image: url("./Imgs/phone.png");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.main-icon-email {
+  background-image: url("./Imgs/email.png");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.main-icon-LinkedIn {
+  background-image: url("./Imgs/LinkedIn.png");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.main-icon-GitHub {
+  background-image: url("./Imgs/GitHub.png");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.hard-skill-icon-javascript {
+  background-image: url("./Imgs/javascript.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.hard-skill-icon-csharp {
+  background-image: url("./Imgs/csharp.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.hard-skill-icon-dotnet {
+  background-image: url("./Imgs/dotnetcore.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.hard-skill-icon-react {
+  background-image: url("./Imgs/react.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.hard-skill-icon-azure {
+  background-image: url("./Imgs/azure.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.hard-skill-icon-angular {
+  background-image: url("./Imgs/angular.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.hard-skill-icon-typescript {
+  background-image: url("./Imgs/typescript.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+hr {
+  background: black;
+  border: 0.5px solid black;
+  opacity: 0.5;
+}
+
+.main-contact {
+  display: grid;
+  width: 40%;
+}
+
+.main-contact span {
+  display: flex;
+}
+
+.main-graduation {
+  width: 50%;
+}
+
+.hardskillandexperience {
+  margin-top: 1rem;
+  display: flex;
+  background: #9d9b9b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hardskills {
+  width: 40%;
+}
+
+.hardskills-each {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.idioms-each {
+  display: grid;
+}
+
+.hardskills-each div{
+  margin: 10px;
+}
+
+.experiences {
+  width: 50%;
+}
+
+.toast {
+  position: fixed;
+  bottom: 5%;
+  margin: 0% 5%;
+  font-weight: bold;
+  padding: 1rem;
+  background: green;
+  color: black;
+  border-radius: 10px;
+}
+
+.img-idiom-brasil {
+  background-image: url("./Imgs/brasil.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.img-idiom-ingles {
+  background-image: url("./Imgs/ingles.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.switch {
+  position: relative;
+    width: 60px;
+    float: right;
+    margin-right: 1rem;
+    height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+/* darkmode */
+.darkmode-cv {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px -2px black;
+  width: 80%;
+  margin: 1% auto;
+  height: auto;
+  background: black;
+  color: #FFF;
+}
+
+.darkmodebtn {
+  position: absolute;
+  right: 10PX;
+  display: grid;
+}
+
+.darkmode-header {
+  display: flex;
+  background: rgb(54, 54, 54);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.darkmode-main {
+  margin-top: 1rem;
+  display: flex;
+  background: rgb(54, 54, 54);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.darkmode-hardskillandexperience {
+  margin-top: 1rem;
+  display: flex;
+  background: rgb(54, 54, 54);
+  border-radius: 10px;
+  padding: 10px;
 }

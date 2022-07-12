@@ -1,0 +1,32 @@
+{
+    "skills": [
+        {
+            "key": "javascript",
+            "value": "javascript"
+        },
+        {
+            "key": "csharp",
+            "value": "csharp"
+        },
+        {
+            "key": "dotnet",
+            "value": "dotnet"
+        },
+        {
+            "key": "react",
+            "value": "react"
+        },
+        {
+            "key": "azure",
+            "value": "azure"
+        },
+        {
+            "key": "angular",
+            "value": "angular"
+        },
+        {
+            "key": "typescript",
+            "value": "typescript"
+        }
+    ]
+}
