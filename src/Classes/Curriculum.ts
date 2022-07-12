@@ -16,6 +16,7 @@ class Curriculum {
     public email: string = "";
     public phone: string = "";
     public currentJob: string = "";
+    public city: string = "";
     public urls: KeyValuePair[] = [];
     public experiences: Experience[] = [];
     public graduations: Graduation[] = [];
@@ -39,6 +40,7 @@ class Curriculum {
         this.email = BasicInfo.basic.email;
         this.currentJob = BasicInfo.basic.currentJob;
         this.phone = BasicInfo.basic.phone;
+        this.city = BasicInfo.basic.city;
     }
 
     setUpIdioms = () => {
