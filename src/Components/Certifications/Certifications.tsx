@@ -7,6 +7,7 @@ const Certifications = (curriculum: Curriculum, darkMode: boolean) => {
             <h3>Certifications</h3>
             <div className='certification-each'>
                 {curriculum.certifications.map((cert, index) => {
+                    if (cert.image === "" || cert.link === "") return null;
                     return (
                         <a key={index} target="_blank" href={cert.link}><img width={80} height={80} src={cert.image} /></a>
                     )

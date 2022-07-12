@@ -7,12 +7,13 @@ const Contact = (curriculum: Curriculum, darkMode: boolean, handleToast: (copied
             <h3>Contact</h3>
             <div style={{ display: "flex", flexWrap: "wrap" }}>
                 {curriculum.urls.map((url, index) => {
+                    if (url.value === "") return null;
                     return (
                         url.key === 'email' ?
-                            <span style={{ cursor: "pointer" }} title='Copiar e-mail' onClick={() => handleToast(curriculum.email)}>
+                            <span key={index} style={{ cursor: "pointer" }} title='Copiar e-mail' onClick={() => handleToast(curriculum.email)}>
                                 <div className='main-icon-email'></div>
                             </span> : url.key === 'phone' ?
-                                <span style={{ cursor: "pointer" }} title='Copiar número' onClick={() => handleToast(curriculum.phone)}>
+                                <span key={index} style={{ cursor: "pointer" }} title='Copiar número' onClick={() => handleToast(curriculum.phone)}>
                                     <div className='main-icon-phone'></div>
                                 </span> :
                                 <a key={index} target="_blank" rel="noreferrer" href={url.value}><div className={`main-icon-${url.key}`}></div></a>
