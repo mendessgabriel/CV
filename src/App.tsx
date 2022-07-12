@@ -32,6 +32,9 @@ function App() {
       } catch(err: any) {
         console.error(err);
         setToast("Erro ao copiar. Feature ainda não criada para Mobile.");
+        setTimeout(() => {
+          setToast("");
+        }, 2000);
       }
     }
   }
