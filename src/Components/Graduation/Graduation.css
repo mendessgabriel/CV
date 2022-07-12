@@ -1,0 +1,13 @@
+.main-graduation {
+    width: 60%;
+    background: darkgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.darkmode-main-graduation {
+    width: 60%;
+    background: rgb(25, 25, 25);
+    padding: 5px;
+    border-radius: 10px;
+}

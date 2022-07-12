@@ -1,0 +1,83 @@
+.card-board {
+    background: darkgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.darkmode-card-board {
+    background: rgb(25, 25, 25);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.hardskills-each {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hardskills-each div {
+    margin: 10px;
+}
+
+.hard-skill-icon-javascript {
+    background-image: url("../../Imgs/javascript.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.hard-skill-icon-csharp {
+    background-image: url("../../Imgs/csharp.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.hard-skill-icon-dotnet {
+    background-image: url("../../Imgs/dotnetcore.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.hard-skill-icon-react {
+    background-image: url("../../Imgs/react.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.hard-skill-icon-azure {
+    background-image: url("../../Imgs/azure.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.hard-skill-icon-angular {
+    background-image: url("../../Imgs/angular.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.hard-skill-icon-typescript {
+    background-image: url("../../Imgs/typescript.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}

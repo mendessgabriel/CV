@@ -1,0 +1,39 @@
+.card-board {
+  background: darkgray;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.darkmode-card-board {
+  background: rgb(25, 25, 25);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.languague-each {
+  display: grid;
+}
+
+.img-idiom-brasil {
+  background-image: url("../../Imgs/brasil.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.img-idiom-ingles {
+  background-image: url("../../Imgs/ingles.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.language-level {
+  bottom: 2rem;
+  font-weight: bold;
+  position: relative;
+}

@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    background: #9d9b9b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header-divisor {
+    width: 100%;
+    display: block;
+    background: darkgray;
+    padding: 5px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.header-photo {
+    width: 15%;
+    background: darkgray;
+    padding: 5px;
+    height: 8rem;
+    border: 4px solid darkgray;
+    border-radius: 100%;
+}
+
+.header-photo-radius {
+    background-image: url("../../Imgs/perfil.jpg");
+    background-repeat: no-repeat;
+    background-size: 8rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100px;
+}
+
+.darkmode-header {
+    display: flex;
+    background: rgb(54, 54, 54);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.darkmode-header-divisor {
+    width: 100%;
+    display: block;
+    background: rgb(25, 25, 25);
+    padding: 5px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.darkmode-header-photo {
+    width: 15%;
+    background: rgb(25, 25, 25);
+    padding: 5px;
+    height: 8rem;
+    border: 4px solid rgb(25, 25, 25);
+    border-radius: 100%;
+}
