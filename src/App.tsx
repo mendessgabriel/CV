@@ -9,9 +9,10 @@ import HardSkills from './Components/HardSkills/HardSkills';
 import Certifications from './Components/Certifications/Certifications';
 import Languages from './Components/Languages/Languages';
 import Experiences from './Components/Experiences/Experiences';
+import { CacheService } from './Services/CacheService';
 
 function App() {
-  const [cv] = useState<Curriculum>(new Curriculum());
+  const [cv, setCv] = useState<Curriculum>(new Curriculum());
   const [darkMode, setDarkMode] = useState<boolean>(false);
   const [toast, setToast] = useState<string>();
 
@@ -21,7 +22,6 @@ function App() {
   }
   
   const handleToast = async (event: React.MouseEvent<HTMLSpanElement>, copied?: any) => {
-    console.log(event)
     if (copied) {
       try {
         await navigator.clipboard.writeText(copied);
@@ -40,9 +40,10 @@ function App() {
   }
 
   useEffect(() => {
-    console.log(cv);
+    let cachedCV = CacheService.getCurriculumInCache(cv);
+    if (cachedCV === cv) setCv(cachedCV);
     document.body.style.backgroundColor = darkMode ? "rgb(25, 25, 25)" : "#9d9b9b";
-  }, []);
+  }, [cv, darkMode]);
 
   return (
     <div className="App">
