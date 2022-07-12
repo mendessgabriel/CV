@@ -37,6 +37,7 @@
     background-repeat: no-repeat;
     background-size: 3rem;
     width: 3rem;
+    border-radius: 5px;
     height: 2rem;
     position: relative;
     top: 5px;

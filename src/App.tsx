@@ -21,7 +21,7 @@ function App() {
     document.body.style.backgroundColor = document.body.style.backgroundColor === "rgb(25, 25, 25)" ? "#9d9b9b" : "rgb(25, 25, 25)";
   }
   
-  const handleToast = async (event: React.MouseEvent<HTMLSpanElement>, copied?: any) => {
+  const handleToast = async (copied?: any) => {
     if (copied) {
       try {
         await navigator.clipboard.writeText(copied);

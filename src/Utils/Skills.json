@@ -2,31 +2,31 @@
     "skills": [
         {
             "key": "javascript",
-            "value": "javascript"
+            "value": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
         },
         {
             "key": "csharp",
-            "value": "csharp"
+            "value": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
         },
         {
             "key": "dotnet",
-            "value": "dotnet"
+            "value": "https://dotnet.microsoft.com/en-us/"
         },
         {
             "key": "react",
-            "value": "react"
+            "value": "https://pt-br.reactjs.org/"
         },
         {
             "key": "azure",
-            "value": "azure"
+            "value": "https://azure.microsoft.com/en-us/"
         },
         {
             "key": "angular",
-            "value": "angular"
+            "value": "https://angular.io/"
         },
         {
             "key": "typescript",
-            "value": "typescript"
+            "value": "https://www.typescriptlang.org/"
         }
     ]
 }
