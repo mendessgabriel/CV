@@ -1,6 +1,14 @@
 {
     "urls": [
         {
+            "key": "phone",
+            "value": "(11) 98602-8180"
+        },
+        {
+            "key": "email",
+            "value": "gabriel_mendes1@outlook.com"
+        },
+        {
             "key": "LinkedIn",
             "value": "https://www.linkedin.com/in/gabrielmendesmartins/"
         },

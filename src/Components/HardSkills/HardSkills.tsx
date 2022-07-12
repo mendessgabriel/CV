@@ -8,7 +8,7 @@ const HardSkills = (curriculum: Curriculum, darkMode: boolean) => {
             <div className='hardskills-each'>
                 {curriculum.hardSkills.map((skill, index) => {
                     return (
-                        <svg key={index} className={`hard-skill-icon-${skill.key}`}></svg>
+                        <a target='_blank' rel="noreferrer" href={skill.value}><svg key={index} className={`hard-skill-icon-${skill.key}`}></svg></a>
                     )
                 })}
             </div>
