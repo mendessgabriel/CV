@@ -1,0 +1,20 @@
+.card-board {
+    background: darkgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.darkmode-card-board {
+    background: rgb(25, 25, 25);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.certification-each {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certification-each div {
+    margin: 10px;
+}

@@ -1,0 +1,21 @@
+.main-contact {
+  display: grid;
+  width: 40%;
+  background: darkgray;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.darkmode-main-contact {
+  display: grid;
+  width: 40%;
+  background: rgb(25, 25, 25);
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.main-contact span {
+  display: flex;
+}
