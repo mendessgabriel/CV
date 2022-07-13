@@ -9,7 +9,7 @@ const Certifications = (curriculum: Curriculum, darkMode: boolean) => {
                 {curriculum.certifications.map((cert, index) => {
                     if (cert.image === "" || cert.link === "") return null;
                     return (
-                        <a key={index} target="_blank" href={cert.link}><img width={80} height={80} src={cert.image} /></a>
+                        <a key={index} target="_blank" rel="noreferrer" href={cert.link}><img alt='certificate' width={80} height={80} src={cert.image} /></a>
                     )
                 })}
             </div>
