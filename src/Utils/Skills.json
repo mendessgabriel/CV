@@ -27,6 +27,10 @@
         {
             "key": "typescript",
             "value": "https://www.typescriptlang.org/"
+        },
+        {
+            "key": "python",
+            "value": "https://www.python.org/"
         }
     ]
 }

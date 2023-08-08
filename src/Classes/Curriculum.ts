@@ -9,6 +9,7 @@ import Graduations from "../Utils/Graduations.json";
 import Idioms from "../Utils/Idioms.json";
 import Urls from "../Utils/Urls.json";
 import Skills from "../Utils/Skills.json";
+import WhoAmI from "../Utils/whoAmI.json";
 
 class Curriculum {
     public name: string = "";
@@ -23,6 +24,7 @@ class Curriculum {
     public idioms: KeyValuePair[] = [];
     public certifications: Certification[] = [];
     public hardSkills: KeyValuePair[] = [];
+    public whoAmI: string = '';
 
     constructor() {
         this.setUpBasicInfo();
@@ -41,6 +43,7 @@ class Curriculum {
         this.currentJob = BasicInfo.basic.currentJob;
         this.phone = BasicInfo.basic.phone;
         this.city = BasicInfo.basic.city;
+        this.whoAmI = WhoAmI.whoAmI;
     }
 
     setUpIdioms = () => {

@@ -32,6 +32,15 @@
   margin: 0.5rem;
 }
 
+.img-idiom-chines {
+  background-image: url("../../Imgs/chines.svg");
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
 .language-level {
   bottom: 2rem;
   font-weight: bold;
