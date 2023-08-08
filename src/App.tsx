@@ -10,6 +10,7 @@ import Certifications from './Components/Certifications/Certifications';
 import Languages from './Components/Languages/Languages';
 import Experiences from './Components/Experiences/Experiences';
 import { CacheService } from './Services/CacheService';
+import WhoAmI from './Components/WhoAmI/WhoAmI';
 
 function App() {
   const [cv, setCv] = useState<Curriculum>(new Curriculum());
