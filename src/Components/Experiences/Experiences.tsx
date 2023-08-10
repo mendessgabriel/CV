@@ -9,7 +9,7 @@ const Experiences = (curriculum: Curriculum, darkMode: boolean) => {
             {curriculum.experiences.map((expe, index) => {
                 return (
                     <div key={index}>
-                        <h3>{expe.enterprise + " - " + expe.role}</h3>
+                        <h3 title={expe.enterprise}>{expe.enterprise + " - " + expe.role}</h3>
                         <p>{expe.startedMonth + "/" + expe.startedYear} {expe.stillWorking ? " - Current" : " - " + expe.endMonth + "/" + expe.endYear}</p>
 
                         <span>{expe.description}</span>

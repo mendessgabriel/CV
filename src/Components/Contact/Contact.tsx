@@ -16,7 +16,7 @@ const Contact = (curriculum: Curriculum, darkMode: boolean, handleToast: (copied
                                 <span key={index} style={{ cursor: "pointer" }} title='Copiar número' onClick={() => handleToast(curriculum.phone)}>
                                     <div className='main-icon-phone'></div>
                                 </span> :
-                                <a key={index} target="_blank" rel="noreferrer" href={url.value}><div className={`main-icon-${url.key}`}></div></a>
+                                <a title={url.key} key={index} target="_blank" rel="noreferrer" href={url.value}><div className={`main-icon-${url.key}`}></div></a>
                     )
                 })}
             </div>
