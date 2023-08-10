@@ -9,7 +9,7 @@ const Graduation = (curriculum: Curriculum, darkMode: boolean) => {
                 return (
                     <div key={index}>
                         <h4>{grad.place} {grad.stillActive ? " - Studying until " + grad.finishMonth + "/" + grad.finishYear : null}</h4>
-                        <span>{grad.name}</span>
+                        <span title={grad.name}>{grad.name}</span>
                     </div>
                 );
             })}

@@ -26,8 +26,8 @@
 .header-photo-radius {
     background-image: url("../../Imgs/perfil.jpg");
     background-repeat: no-repeat;
-    background-size: 8rem;
-    width: 8rem;
+    background-size: 9rem;
+    width: 100%;
     height: 8rem;
     border-radius: 100px;
 }

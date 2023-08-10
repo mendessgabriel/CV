@@ -5,19 +5,19 @@
 }
 
 .icon-moon {
-    background-image: url("../../Imgs/moon.svg");
+    background-image: url("../../Imgs/darkgrey-light.svg");
     background-repeat: no-repeat;
     background-size: 4rem;
     width: 4rem;
-    height: 5rem;
+    height: 4rem;
 }
 
 .icon-sun {
-    background-image: url("../../Imgs/sun.svg");
+    background-image: url("../../Imgs/darkgrey.svg");
     background-repeat: no-repeat;
     background-size: 4rem;
     width: 4rem;
-    height: 5rem;
+    height: 4rem;
 }
 
 
@@ -80,4 +80,16 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.darkdetail {
+    color: #9d9b9b;
+    font-weight: bold;
+    align-self: center;
+}
+
+.lightdetail {
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    align-self: center;
 }

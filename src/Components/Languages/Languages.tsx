@@ -8,7 +8,7 @@ const Languages = (curriculum: Curriculum, darkMode: boolean) => {
             <div className='languague-each'>
                 {curriculum.idioms.map((idiom, index) => {
                     return (
-                        <span key={index}><svg className={`img-idiom-${idiom.key}`} /><span className='language-level'>{" - " + idiom.value}</span></span>
+                        <span title={idiom.key} key={index}><svg className={`img-idiom-${idiom.key}`} /><span className='language-level'>{" - " + idiom.value}</span></span>
                     )
                 })}
             </div>

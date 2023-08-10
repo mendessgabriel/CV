@@ -2,8 +2,20 @@
   .header-photo {
     display: none;
   }
+  .darkmode-header-photo {
+    display: none;
+  }
   .language-level {
     display: none;
+  }
+  .header-divisor {
+    margin-right: 0!important;
+  }
+  .darkmode-header-divisor {
+    margin-right: 0!important;
+  }
+  .certification-title {
+    font-size: large;
   }
 }
 
@@ -12,6 +24,14 @@
     width: 25%!important;
   }
   .darkmodebtn {
+    display: flex!important;
+    position: relative!important;
+    right: 0!important;
+    height: 35px;
+    margin-left: 2rem!important;
+    margin-top: 0.5rem;
+  }
+  .icon-moon, .icon-sun {
     display: none!important;
   }
 }
