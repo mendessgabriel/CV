@@ -10,6 +10,7 @@ import Idioms from "../Utils/Idioms.json";
 import Urls from "../Utils/Urls.json";
 import Skills from "../Utils/Skills.json";
 import WhoAmI from "../Utils/whoAmI.json";
+import Portfolio from "../Utils/portfolio.json";
 
 class Curriculum {
     public name: string = "";
@@ -25,6 +26,7 @@ class Curriculum {
     public certifications: Certification[] = [];
     public hardSkills: KeyValuePair[] = [];
     public whoAmI: string = '';
+    public portfolio: KeyValuePair[] = [];
 
     constructor() {
         this.setUpBasicInfo();
@@ -34,6 +36,7 @@ class Curriculum {
         this.setUpCertifications();
         this.setUpUrls();
         this.setUpSkills();
+        this.setUpPortfolio();
     }
 
     setUpBasicInfo = () => {
@@ -79,6 +82,12 @@ class Curriculum {
     setUpSkills = () => {
         Skills.skills.forEach((skill) => {
             this.hardSkills.push(skill);
+        });
+    }
+
+    setUpPortfolio = () => {
+        Portfolio.portfolio.forEach((skill) => {
+            this.portfolio.push(skill);
         });
     }
 }
