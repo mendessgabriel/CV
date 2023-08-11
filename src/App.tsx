@@ -49,7 +49,16 @@ function App() {
   return (
     <div className="App">
       {DarkModeSwitch(darkMode, handleDarkMode)}
+      <div >
+                    {cv.portfolio.map((port, index) => {
+                        if (port.value === "") return null;
+                        return (
+                            <a title={port.key} target='_blank' key={index} rel="noreferrer" href={port.value}></a>
+                        )
+                    })}
+                </div>
       <div className={darkMode ? "darkmode-cv" : "cv"}>
+      
         {Header(cv, darkMode)}
         <div className={darkMode ? 'darkmode-main' : 'main'}>
           {Contact(cv, darkMode, handleToast)}
