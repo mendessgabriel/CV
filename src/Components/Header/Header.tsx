@@ -12,7 +12,10 @@ const Header = (curriculum: Curriculum, darkMode: boolean) => {
                     {curriculum.portfolio.map((port, index) => {
                         if (port.value === "") return null;
                         return (
-                            <a title={port.key} target='_blank' key={index} rel="noreferrer" href={port.value}>{port.key}</a>
+                            <div style={{margin: 0}}>
+                            <a title={port.key} target='_blank' key={index} rel="noreferrer" href={port.value}> {port.key} </a>
+                            {(curriculum.portfolio.length - 1) != index ? <span style={{marginRight: '5px'}}> - </span> : null}
+                            </div>
                         )
                     })}
                 </div>

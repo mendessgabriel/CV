@@ -3,6 +3,10 @@
         {
             "key": "soletrando",
             "value": "https://soletrando.vercel.app/"
+        },
+        {
+            "key": "floydflix",
+            "value": "https://floydflix.vercel.app/"
         }
     ]
 }
