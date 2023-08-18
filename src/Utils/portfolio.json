@@ -7,6 +7,10 @@
         {
             "key": "floydflix",
             "value": "https://floydflix.vercel.app/"
+        },
+        {
+            "key": "blackjack",
+            "value": "https://blackjackgame-nu.vercel.app/"
         }
     ]
 }
