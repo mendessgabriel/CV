@@ -7,7 +7,7 @@ const Header = (curriculum: Curriculum, darkMode: boolean) => {
             <div className={darkMode ? 'darkmode-header-divisor' : 'header-divisor'}>
                 <h1>{curriculum.name}</h1>
                 <h2>{curriculum.currentJob} - {curriculum.age} years old - <a target='_blank' rel="noreferrer" href={`https://google.com/search?q=estado+de+${curriculum.city.replace(" ", "+")}`}><svg className='flag-state'></svg></a></h2>
-                <h4>portfolio</h4>
+                <h4>portfolio pessoal</h4>
                 <div className='hardskills-each'>
                     {curriculum.portfolio.map((port, index) => {
                         if (port.value === "") return null;

@@ -1,6 +1,10 @@
 {
     "portfolio": [
         {
+            "key": "IA Landing Page",
+            "value": "https://artificiallandingpage.vercel.app/"
+        },
+        {
             "key": "soletrando",
             "value": "https://soletrando.vercel.app/"
         },
