@@ -90,3 +90,11 @@
     height: 5rem;
     margin: -0.5rem;
 }
+
+.hard-skill-icon-VUE {
+    background-image: url("../../Imgs/VUE.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+}

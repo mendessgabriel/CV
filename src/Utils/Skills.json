@@ -31,6 +31,10 @@
         {
             "key": "python",
             "value": "https://www.python.org/"
+        },
+        {
+            "key": "VUE",
+            "value": "https://vuejs.org/"
         }
     ]
 }

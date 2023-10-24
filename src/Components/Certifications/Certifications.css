@@ -18,3 +18,11 @@
 .certification-each div {
     margin: 10px;
 }
+
+.csharp {
+    background-image: url("../../Imgs/csharp.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+}
