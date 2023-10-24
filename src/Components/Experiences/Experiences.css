@@ -11,3 +11,27 @@
   padding: 5px;
   border-radius: 10px;
 }
+
+.logo-agrotools {
+  background-image: url("../../Imgs/agrotools.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 3rem;
+}
+
+.logo-iteris {
+  background-image: url("../../Imgs/iteris.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo-surf {
+  background-image: url("../../Imgs/surf.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4rem;
+  height: 4rem;
+}
